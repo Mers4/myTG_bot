@@ -3,8 +3,8 @@ name: Send Daily Poll
 on:
   schedule:
     # Проверка: сегодня в 20:45 (UTC+3 = Москва)
-    # 20:50 MSK = 17:45 UTC (минус 3 часа)
-    - cron: '50 17 * * *'
+    # 20:55 MSK = 17:45 UTC (минус 3 часа)
+    - cron: '55 17 * * *'
   workflow_dispatch:  # Позволяет запустить вручную для теста
 
 jobs:
